@@ -23,7 +23,7 @@ section{
 
 
 
-
+/* Top Mission Section start */
 .top_mission{
     margin-top: 100px;
 }
@@ -62,10 +62,13 @@ span{
     margin-top: -30px;
 }
 
+/* Top Mission Section End */
 
 
 
 
+
+/* My Mission Section start */
 
 .myMission .myMission_header{
     margin-top: 110px;
@@ -109,8 +112,12 @@ span{
     margin-top: 50px;
 }
 
+/* My Mission Section End */
 
 
+
+
+/* About Me Section start */
 
 .aboutMe{
     margin-top: 90px;
@@ -147,8 +154,11 @@ span{
     padding: 13px 40px;
 }
 
+/* About Me End */
 
 
+
+/* Project Meeting Section start */
 
 .project_meeting{
     margin-top: 90px;
@@ -176,12 +186,14 @@ span{
     padding: 13px 40px;
 }
 
+/* Project Meeting Section End */
 
 
 
 
 
 
+/* Contact Me Section start */
 
 .contact_me .contact_meBox{
     margin: 120px 0px;
@@ -271,6 +283,10 @@ span{
     padding: 15px 30px 30px 30px;
     color: #fff;
 }
+
+/* Contact Me Section End */
+
+
 
 footer{
     background-color: black;
