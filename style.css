@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+section{
+    width: 1280px;
+    margin: 0 auto;  
+}
+.flex_div{
+    display: flex;
+}
+
+.half_width{
+    width: 50%;
+}
+
+
+
+
+
+
+.top_mission{
+    margin-top: 100px;
+}
+.top_mission h2{
+    font-size: 50px;
+    border-left: 5px solid rgb(255, 104, 84);
+    border-radius: 5px;
+    padding-left: 22px;
+}
+span{
+    color: orange;
+}
+.top_mission p{
+    font-size: 18px;
+    margin: 30px 20px 30px 0px;
+    text-align: justify;
+}
+.top_mission .Scroll-down{
+    font-size: 16px;
+}
+.btn{
+     border: 1px solid rgb(255, 104, 84);
+    border-radius: 5px;
+    background-color: rgb(255, 104, 84);
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.top_mission a{
+    padding: 10px 30px;
+    font-size: 18px;
+}
+.myPic img{
+    width: 80%;
+    padding-left:  100px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+.myMission .myMission_header{
+    margin-top: 110px;
+}
+
+.myMission .myMission_header h1{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+.myMission .mission{
+    width: 400px;
+    height: 420px;
+    border-radius: 25px;
+    margin-right: 40px;
+}
+.myMission .mission_bg1{
+    background-color: rgba(155, 212, 235, 0.616);
+}
+.myMission .mission_bg2{
+    background-color: rgba(235, 155, 222, 0.616);
+}
+.myMission .mission_bg3{
+    background-color: rgba(235, 210, 155, 0.616);
+    margin-right: 0px;
+}
+.myMission .mission img{
+    width: 45%;
+}
+.myMission .goals_h, .goals_p{
+    padding: 20px 25px 0px 35px;
+}
+.myMission .mission p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.mission_goals{
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+
+
+
+.aboutMe{
+    margin-top: 90px;
+    background-image: url(./images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position-x: left;
+    background-position-y: top;
+}
+
+.aboutMe .myImg{
+    width:50%;
+}
+.aboutMe .myImg img{
+    border-radius: 30px;
+    width: 50%;
+    margin: -30px 0px 0px 20px;
+}
+
+.aboutMe .something_me{
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 70px;
+
+}
+.aboutMe .something_me h2{
+    font-size: 40px;
+}
+.aboutMe .something_me p{
+    text-align: justify;
+    margin: 30px 0px;
+}
+.aboutMe .something_me a{
+    padding: 13px 40px;
+}
+
+
+
+
+.project_meeting{
+    margin-top: 90px;
+}
+.project_meeting .meetingImg{
+    width: 50%;
+}
+.project_meeting .Community_div{
+    width: 50%;
+}
+.Community_div h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.Community_div p{
+    text-align: justify;
+    margin: 30px 0px;
+}
+.project_meeting .meetingImg img{
+    margin-left: 220px;
+    width: 65%;
+}
+
+.project_meeting .Community_div a{
+    padding: 13px 40px;
+}
+
+
+
+
+
+
+
+
+.contact_me .contact_meBox{
+    margin: 120px 0px;
+    
+}
+.contact_meBox .contact_info{
+    width: 30%;
+    margin-right: 35px;
+    background-color: rgba(135, 207, 235, 0.644);
+    padding: 40px;
+    border-radius: 7.5px;
+    box-shadow: -35px -35px rgb(255 210 84 / 17%);
+}
+.contact_meBox .contact_info h2{
+    font-weight: 500;
+    font-size: 27px;
+}
+.contact_meBox .contact_info .underLine{
+    border: 1px solid rgb(235, 135, 135);
+    background-color: red;
+    width: 55px;
+    margin-bottom: 45px;
+}
+
+.contact_meBox .contact_info h3{
+    color: rgb(94, 97, 105);
+    margin-bottom: 10px;
+}
+
+.contact_meBox .contact_info p{
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.contact_meBox .contact_info hr{
+    margin: 10px 0px 50px 0px;
+    background-color: rgba(0, 70, 128, 0.425);
+    border:1px solid rgb(135, 207, 235);
+}
+
+
+.contact_meBox .leave_message{
+    width: 75%;
+
+}
+.leave_message input{
+    display: inline-flex;
+    height: 40px;
+    padding: 0 34px;
+    margin-right: 6px;
+    border: 1px solid #b3d9db;
+    font-size: 16px;
+    font-weight: 50;
+    color: #585858;
+    border-radius: 5px;
+
+}
+.leave_message .underLeave{
+    border: 1px solid rgb(226 100 100);
+    background-color: #ff254d;
+    margin-top: -3px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.leave_message .message_h{
+    margin-bottom: 30px;
+}
+.leave_message .message_h h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#message{
+    padding: 30px 45px;
+    margin: 30px 0px;
+    border: 1px solid #b3d9db;
+    font-size: 16px;
+    font-weight: 50;
+    color: #585858;
+    border-radius: 5px;
+}
+
+#subBtn{
+    background-color: rgb(245, 127, 49);
+    padding: 15px 30px 30px 30px;
+    color: #fff;
+}
+
+footer{
+    background-color: black;
+    height: 150px;
+    text-align: center;
+}
+footer h1{
+    color: #ffff;
+    padding-top: 20px;
+}
+.footer_span{
+    color: red;
+}
+footer p{
+    color: blanchedalmond;
+    font-weight: 200;
+    font-size: 14px;
+}
